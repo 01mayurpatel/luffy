@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- BOOTSTRAP LINKS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="Assets/css/index.css">
+    <title>LUFFY</title>
+    <style>
+        /* Add custom styles here if needed */
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row ">
+
+            <div class="main-box col-lg-5 col-md-5 col-sm-12 col-12">
+                <div class="main-box1">
+                    <div class="d-flex left-buttons justify-content-around">
+                        <button class="left-btn px-5">SWAP </button>
+                        <button class="left-btn px-5">CHART</button>
+                    </div>
+                    <div  style="height: 93%;">
+                        <div
+                            style="height: 100%;border-bottom-left-radius: 14px;border-bottom-right-radius: 14px; overflow: hidden;">
+                            <div class=" left-down-main pb-2">
+                                <div class="left-down-1 d-flex">
+
+                                    <div class="left-img-1-box">
+                                        <h2 class="luffy_text">LUFFY</h2>
+                                    </div>
+                                    <img class="left-img-1" src="Assets/img/main image.png" alt="">
+                                </div>
+                                <div class="left-down-2   ml-3 mr-3 p-1 row">
+
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-3 img-2-box">
+                                        <img class=" left-img-2" src="Assets/img/luffy_icon.png" alt="">
+                                    </div>
+
+                                    <div class="col-lg-9 col-sm-9  col-md-9  two-img text-start pl-4">
+                                        <h5 id="monkey-d">MONKEY D LUFFY</h5>
+                                        <p class="pb-0 pt-0 pb-0 mb-0" id="TheRubberBanded">The Rubber Banded Pascal</p>
+                                        <h1 id="dead-alive">DEAD</h1>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-7 h-100 col-md-7 mt-2 right-side   col-sm-7 "
+                style="height: 100%; padding-bottom: 0px; padding-right: 0;padding-top: 0;padding-left: 0;">
+                <div style="height: 100%;" class="right-side-box">
+                    <div class=" right-div-top" style="height: 10%;">
+                        <h1 id="metricData1" class="py-2">METRIC DATA</h1>
+                        <h3 id="metricData2" class="py-2">METRIC DATA</h3>
+                    </div>
+
+                <div style="height: 40%;" class="bb-1">
+                        <div class="boxright1" style="height: 100%;">
+                            <div class="row mt-3" style="height: 100%;">
+                                <div class=" col-lg-4 col-md-12 col-sm-12 col-12">
+
+                                    <div class="d-flex flex-column justify-content-between" style="height: 100%;">
+
+                                        <div class="right-div-1 ">
+                                            <div class="right-div-11 mx-3 under">
+                                                <p class="mb-0 pb-2 right-p">DOUBLOONS VALUE</p>
+                                                <h4 class="mt-0 pt-0  right-h">$ 0.00000143</h4>
+                                            </div>
+                                            <div class="right-div-12 mx-3 mt-2">
+                                                <p class="mb-0 pb-2 right-p ">TIDAL SHIFTS</p>
+                                                <h4 class="mt-0 pt-0 right-h">$ 0.00%</h4>
+                                            </div>
+                                            <div class="link-box mt-2">
+                                                <div class="d-flex link-main justify-content-between"
+                                                    style="max-width: 100%; overflow: hidden;" onclick="myFunction()">
+                                                    <p id="link-copy" class="pl-3 py-1 ">0xbb02647c4.....17c52ad326</p>
+                                                    <span style="border-left: 1px solid white;">
+                                                        <a href="#"> <i id="copy-icon"
+                                                                style="height: 100%; background-color: rgba(1,188,191,1);padding-top: 12px;padding-bottom: 0px; color: white;"
+                                                                class="fa-solid fa-location-arrow  px-2  "></i>
+
+                                                        </a>
+
+                                                    </span>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                        <div
+                                            class="right-div-2 impp  right-ligth-bg-div p-1 d-flex justify-content-between ">
+                                            <div class=" px-2">
+                                                <p class="mb-0 pb-1 mt-1 right-p">SUNKEN TRESURE</p>
+                                                <h4 class="mt-0 pt-0 pb-0 right-h">0.13 <span>ETH</span></h4>
+                                            </div>
+                                            <img style="width: 15px;" class="right-div-2-img my-auto mr-3"
+                                                src="Assets/img/etherum.png" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-8 right-div-pad pl-5 col-md-12 col-sm-12 col-12">
+                                    <div class="d-flex flex-column line-box" style=" height: 100%;">
+                                        <div class="line-chart">
+                                            <canvas id="myChart" class=""></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div style="height: 50%;  " class="bb-2">
+                        <div class="boxright2" style="height: 100%;">
+                            <div class="row" style="height: 100%;">
+                                <div class=" col-lg-4 col-md-12 col-sm-12 col-12">
+                                    <div id="time" class="w-100 pt-4">
+
+                                        <div class="circle mx-auto my-auto" style="--clr: rgba(1,188,191,1)">
+                                            <div class="dots hr_dot"></div>
+                                            <svg>
+                                                <circle cx="75" cy="75" r="98"></circle>
+                                                <circle cx="75" cy="75" r="98" id="hh"></circle>
+                                            </svg>
+                                            <div id="hours">
+                                                <div class="mayurr">
+                                                    <p class="tides-rest">TIDE'S REST</p>
+                                                    <div class="d-flex">
+                                                        <h2 id="hour_point">17</h2>
+                                                        <h2 class="px-2">:</h2>
+                                                        <h2 id="min_point">52</h2>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <h6 id="HRS">HRS</h6>
+                                                        <h2 class="px-3"></h2>
+                                                        <h6 id="MIN">MIN</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8   col-md-12 col-sm-12 col-12">
+
+
+                                    <div class="row right-div-pad pl-5">
+                                        <div class="col-6 mb-2" style="padding-right: 0;padding-left: 0; ">
+                                            <div
+                                                class="right-div-2 mb-1right right-ligth-bg-div rightdivtype2 p-1 mt-3  ">
+                                                <div class=" px-2">
+                                                    <p class="mb-0 pb-1 right-p">TRESURE BORAD</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <h4 class="mt-0 pt-0 pb-0 right-h">$ 172.02</h4>
+                                                       
+                                                        <img class="right-botom-2-img2 mr-4"
+                                                            src="Assets/img/mcap png.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-2">
+                                            <div class="right-div-2 rightdivtype2 mb-2 right-ligth-bg-div p-1 mt-3  ">
+                                                <div class=" px-2">
+                                                    <p class="mb-0 pb-1 right-p">CREW SIZE</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <h4 class="mt-0 pt-0 pb-0 right-h">777</h4>
+                                                        <img class="right-botom-2-img1 mr-4"
+                                                        src="Assets/img/holders png.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-6 mb-2" style="padding-right:0px;padding-left: 0;">
+                                            <div class="right-div-2 rightdivtype2 right-ligth-bg-div p-1  ">
+                                                <div class=" px-2">
+                                                    <p class="mb-0 pb-1 right-p">PERSONAL LOOT</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <h4 class="mt-0 pt-0 pb-0 right-h">0</h4>
+                                                        <img class="right-botom-2-img3 mr-4"
+                                                            src="Assets/img/owner png.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-2">
+                                            <div class="right-div-2 rightdivtype2 right-ligth-bg-div p-1   ">
+                                                <div class=" px-2">
+                                                    <p class="mb-0 pb-1 right-p">SEA TRADE VOLUME</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <h4 class="mt-0 pt-0 pb-0 right-h">$ 0</h4>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class=" mt-4">
+                                        <div class="">
+                                           
+
+                                                <div  class="right-bottom-div-box right-div-pad pl-5">
+                                                    <div class="right-bottom-div  row " style="width: 100%;">
+                                                        <div class="bottom-div-left p-2 col-4">
+                                                            <div class="text-center">
+                                                                <p class="mb-0 pb-1 right-p text-center">Crew's Share</p>
+                                                                <div class="">
+                                                                    <h4 class="mt-0 pt-0 pb-0  right-h bottom-moddle-h">1,234,567
+                                                                    </h4>
+        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bottom-div-center col-4">
+                                                            <!-- <a href="#" target="_blank"> -->
+                                                            <div class="p-2">
+        
+                                                                <div class="justify-content-between text-center  pt-1">
+                                                                    <h4 class="mt-0 pt-0 pb-0 right-h bottom-moddlle-h ">
+                                                                        ClAIMABLE</h4>
+                                                                    <h4 class="mt-0 pt-0 pb-0 right-h bottom-moddlle-h">BOOTY
+                                                                    </h4>
+        
+                                                                </div>
+                                                            </div>
+                                                            <!-- </a> -->
+                                                        </div>
+                                                        <div class="bottom-div-right col-4">
+                                                            <div class=" px-3 p-2">
+                                                                <p class="mb-0 pb-1 right-p text-center">Bounty Harvest</p>
+                                                                <div class="d-flex justify-content-center">
+                                                                    <h4 class="mt-0 pt-0 pb-0 bottom-moddle-h right-h pr-3">
+                                                                        0.174</h4>
+                                                                    <img style="width: 15px;" class="right-botom-2-img my-auto"
+                                                                        src="Assets/img/etherum.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row main-box-res" style="height: 78%;">
+
+
+                    <div class="col-lg-4 div-md-4 mx-auto div-sm-8 col-8 " style="height: 100%;">
+
+
+
+                        <div class="d-flex flex-column justify-content-around " style="height: 50%;">
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="col-lg-8 col-md-12 chartBox col-sm-12 col-12 pl-5" style="height: 100%;">
+
+                        <div class=" pl-3 mt-3" style="width: 100%; ">
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+                <div style="width: fit-content; margin-left: auto;margin-right: auto; height: fit-content;">
+                    <div class="rigth-bottom-final ">
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Assets/js/index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
